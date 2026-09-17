@@ -1,13 +1,3 @@
----
-title: Flood Probability Predictor
-emoji: 🌊
-colorFrom: blue
-colorTo: cyan
-sdk: docker
-app_port: 7860
-pinned: false
----
-
 <div align="center">
 
 # 🌊 Flood Probability Predictor
@@ -24,6 +14,9 @@ pinned: false
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Docker](https://img.shields.io/badge/Docker-Deployed-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+### 🔗 **Live App: [flood-prediction-app-oyar.onrender.com](https://flood-prediction-app-oyar.onrender.com/)**
+*(Hosted free on Render — may take ~30s to wake up if idle)*
 
 </div>
 
