@@ -1,0 +1,134 @@
+{
+  "feature_names": [
+    "MonsoonIntensity",
+    "TopographyDrainage",
+    "RiverManagement",
+    "Deforestation",
+    "Urbanization",
+    "ClimateChange",
+    "DamsQuality",
+    "Siltation",
+    "AgriculturalPractices",
+    "Encroachments",
+    "IneffectiveDisasterPreparedness",
+    "DrainageSystems",
+    "CoastalVulnerability",
+    "Landslides",
+    "Watersheds",
+    "DeterioratingInfrastructure",
+    "PopulationScore",
+    "WetlandLoss",
+    "InadequatePlanning",
+    "PoliticalFactors"
+  ],
+  "target": "FloodProbability",
+  "best_model": "PolynomialRegression_deg1",
+  "metrics": {
+    "PolynomialRegression_deg1": {
+      "r2": 1.0,
+      "mae": 8.733569423213793e-17,
+      "rmse": 1.1410073740018778e-16
+    },
+    "PolynomialRegression_deg2": {
+      "r2": 1.0,
+      "mae": 1.3244960683778118e-16,
+      "rmse": 1.7440045377500494e-16
+    },
+    "PolynomialRegression_deg3": {
+      "r2": 1.0,
+      "mae": 3.0142000007060687e-16,
+      "rmse": 4.1388654244263126e-16
+    },
+    "KNNRegression_k5": {
+      "r2": 0.7746585912938819,
+      "mae": 0.0185903,
+      "rmse": 0.023690337692823207
+    }
+  },
+  "feature_ranges": {
+    "MonsoonIntensity": {
+      "min": 0.0,
+      "max": 16.0
+    },
+    "TopographyDrainage": {
+      "min": 0.0,
+      "max": 18.0
+    },
+    "RiverManagement": {
+      "min": 0.0,
+      "max": 16.0
+    },
+    "Deforestation": {
+      "min": 0.0,
+      "max": 17.0
+    },
+    "Urbanization": {
+      "min": 0.0,
+      "max": 17.0
+    },
+    "ClimateChange": {
+      "min": 0.0,
+      "max": 17.0
+    },
+    "DamsQuality": {
+      "min": 0.0,
+      "max": 16.0
+    },
+    "Siltation": {
+      "min": 0.0,
+      "max": 16.0
+    },
+    "AgriculturalPractices": {
+      "min": 0.0,
+      "max": 16.0
+    },
+    "Encroachments": {
+      "min": 0.0,
+      "max": 18.0
+    },
+    "IneffectiveDisasterPreparedness": {
+      "min": 0.0,
+      "max": 16.0
+    },
+    "DrainageSystems": {
+      "min": 0.0,
+      "max": 17.0
+    },
+    "CoastalVulnerability": {
+      "min": 0.0,
+      "max": 17.0
+    },
+    "Landslides": {
+      "min": 0.0,
+      "max": 16.0
+    },
+    "Watersheds": {
+      "min": 0.0,
+      "max": 16.0
+    },
+    "DeterioratingInfrastructure": {
+      "min": 0.0,
+      "max": 17.0
+    },
+    "PopulationScore": {
+      "min": 0.0,
+      "max": 19.0
+    },
+    "WetlandLoss": {
+      "min": 0.0,
+      "max": 22.0
+    },
+    "InadequatePlanning": {
+      "min": 0.0,
+      "max": 16.0
+    },
+    "PoliticalFactors": {
+      "min": 0.0,
+      "max": 16.0
+    }
+  },
+  "target_range": {
+    "min": 0.285,
+    "max": 0.725
+  }
+}
